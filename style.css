@@ -2,7 +2,7 @@
 *{
     margin: 0px;
     padding: 0px;
-
+    font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
 
 }
 
@@ -11,7 +11,8 @@ nav{
  display: flex;
  justify-content: space-around;
  align-items: center;
- margin-top: 20px;
+ margin-top: 50px;
+ color: #3A3A3A;
 }
 
 .logo h1{
@@ -19,10 +20,54 @@ nav{
 }
 .nav-manu ul{
  display: flex;
- gap: 15px;
+ gap: 23px;
  align-items: center;
 }
 .nav-manu ul li{
  list-style: none;
  font-weight: bolder;
+}
+
+
+/* hero section styles */
+.hero-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    align-items: center;
+  
+}
+.hero-content h1{
+ font-size: 60px;
+ color: #3A3A3A;
+}
+.hero-content p{
+ font-size: 14px;
+ color: #3A3A3A;
+ font-weight: bold;
+ margin-top: 10px;
+ 
+}
+
+.hero-content button{
+ font-size: 15px;
+ color: white;
+ font-weight: bold;
+ padding: 8px 12px;
+ border-radius: 20px;
+ background-color: #E02C6D;
+ border: none;
+ margin-top: 20px;
+ 
+}
+
+.hero-media img{
+    width: 400px;
+}
+
+.circel{
+    width: 600px;
+    position: absolute;
+    right: 300px;
+    z-index: -1;
 }
