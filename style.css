@@ -71,3 +71,15 @@ nav{
     right: 300px;
     z-index: -1;
 }
+
+.brand-img-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:  70px;
+    border-top: 1px solid rgb(177, 176, 176);
+    border-bottom: 1px solid rgb(177, 176, 176);
+    padding: 30px;
+    margin: 60px auto;
+    width: 55%;
+}
